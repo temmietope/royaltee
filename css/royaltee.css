@@ -1,0 +1,266 @@
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.royaltee{
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+    color: rgb(14, 0, 14);
+    font-family: cursive;
+
+}
+#quote{
+    padding-top: 10px;
+    padding-right: 0;
+    text-align: left;
+    font-style: italic;
+}
+@media only screen and (max-width: 768px){
+    #quote{
+        display:none;
+    }
+}
+.navbar{
+    background-color: rgb(248, 139, 248);
+    margin-top: -15px;
+    font-family: cursive;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-link{
+    cursor: pointer;
+    color:whitesmoke !important;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color: whitesmoke !important;
+    color: rgb(248, 139, 248) !important;
+}
+.nav-link:active{
+    background-position: grey !important;
+    color: rgb(248, 139, 248) !important;
+}
+.carousel{
+    max-height: 500px;
+    position: relative;
+}
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 300px;
+    position: relative;
+}
+/* .carousel-caption{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    color:rgb(252, 7, 47);
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.carousel .btn{
+    background-color: rgb(252, 7, 121);
+    border: 0;
+} */
+.beauty{
+    height: 50px;
+    background-color: rgb(248, 139, 248);
+    margin-top: 1px;
+    text-align: center;
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
+.jumbotron .btn{
+    background-color: rgb(248, 139, 248);
+
+}
+/* .container .terms{
+    max-height: 40px !important;
+    background-color: red;
+    box-sizing: border-box;
+} */
+.terms h1{
+    text-align: center;
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    margin-top: 60px;
+}
+.terms .agreement{
+    text-align: center;
+}
+.terms .btn{
+    background-color: rgb(248, 139, 248);
+}
+.terms .btn:hover{
+    background-color: white;
+    color: rgb(248, 139, 248);
+}
+.terms .btn:active{
+    background-color: white;
+    color: rgb(248, 139, 248);
+}
+.terms .back a{
+    float: right;
+    margin-top: 100px;
+}
+.clear{
+    clear: both;
+}
+.about{
+   padding-left: 10px;
+   padding-right: 10px;
+   margin: 50px;
+}
+
+.about .aboutus h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    border-bottom: 4px solid rgb(248, 139, 248);
+}
+.about .row{
+    padding-bottom: 20px;
+}
+.about .row .head{
+    font-family: serif;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 139, 248);
+}
+.about .categories{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.about .categories .btn{
+    background-color: rgb(248, 139, 248);
+    border: 0;
+}
+.about .categories .btn:hover{
+    background-color: white;
+    color: rgb(248, 139, 248);
+}
+.about .categories .btn:active{
+    background-color: white;
+    color: rgb(248, 139, 248);
+}
+.about .categories .btn:aVisited{
+    background-color: white;
+    color: rgb(248, 139, 248);
+}
+.about .extra{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 40px;
+    border-top: 4px solid rgb(248, 139, 248);
+}
+.footer{
+    background-color: rgb(248, 139, 248);
+    text-align: center;
+}
+.space{
+    height: 300px;
+}
+.haircategory h1, h3{
+    text-align: center;
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.haircategory img{
+    border: 2px solid rgb(248, 139, 248);
+    margin: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+}
+.preferredstyle .preferredForm{
+    border: 2px solid rgb(248, 139, 248);
+    margin-top: 50px;
+    padding: 60px;
+}
+.preferredstyle .preferredForm .btn{
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    border: 0;
+}
+.preferredstyle .preferredForm .btn:hover{
+    background-color: whitesmoke;
+    color: rgb(248, 139, 248);
+}
+.preferredstyle .preferredForm .btn:active{
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+}
+.preferredstyle .preferredForm .btn:visited{
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    border: 0;
+}
+.quickdelivery h1{
+    text-align: center;
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.quickdelivery .quickform{
+    border: 2px solid rgb(248, 139, 248);
+    margin-top: 50px;
+    padding: 60px;
+}
+.quickdelivery .quickform .btn{
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    border: 0;
+}
+.quickdelivery .quickform .btn:hover{
+    background-color: whitesmoke;
+    color: rgb(248, 139, 248);
+}
+.quickdelivery .quickform .btn:visited{
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    border: 0;
+}
+.enquiries h1{
+    text-align: center;
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.enquiries .enquiriesform{
+    border: 2px solid rgb(248, 139, 248);
+    margin-top: 50px;
+    padding: 60px;
+}
+.enquiries .enquiriesform .btn{
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    border: 0;
+}
+.enquiries .enquiriesform .btn:hover{
+    background-color: whitesmoke;
+    color: rgb(248, 139, 248);
+}
+.enquiries .enquiriesform .btn:visited{
+    background-color: rgb(248, 139, 248);
+    color: whitesmoke;
+    border: 0;
+}
